@@ -89,7 +89,7 @@ export default class AddTutorial extends Component {
               </div>
   
               <div className="form-group">
-                <label htmlFor="description">Description</label>
+                <label >Description</label>
                 <input
                   type="text"
                   className="form-control"

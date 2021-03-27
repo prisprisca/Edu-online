@@ -90,7 +90,7 @@ export default class Tutorial extends Component {
     TutorialDataService.update(this.state.currentTutorial.id, data)
       .then(() => {
         this.setState({
-          message: "The tutorial was updated successfully!",
+          message: "The post was updated successfully!",
         });
       })
       .catch((e) => {
