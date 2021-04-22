@@ -7,7 +7,7 @@ import EduEvents from "./EduEvents";
 
 function Landingpage() {
   return (
-    <div>
+    <div style={{paddingBottom: "50px"}}>
       <Header />
       <Home />
       <EduEvents />
